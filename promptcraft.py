@@ -3,7 +3,7 @@ from utils.prompt_generator import generate_prompt
 from datetime import datetime
 
 import socket
-app = Flask(__name__)
+app=Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
